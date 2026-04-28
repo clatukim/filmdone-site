@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 const gallery = await getCollection('gallery');
 const projects = gallery.filter(g => g.data.name);
 ---
-<Layout title="갤러리 - AAA 아카이브">
+<Layout title="갤러리 - FilmDone 아카이브">
   <section class="py-24 px-6 md:px-16 max-w-[1440px] mx-auto">
     <span class="text-primary-fixed font-headline text-xs uppercase tracking-[0.3em] font-bold mb-4 block">Gallery</span>
     <h1 class="font-headline text-4xl md:text-5xl font-bold mb-16">갤러리</h1>
